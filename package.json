@@ -1,0 +1,34 @@
+{
+  "name": "redux-sagas-async",
+  "version": "1.0.1",
+  "description": "An alternative and simplified version of redux-saga using await/async instead of generators.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tibbus/redux-sagas-async.git"
+  },
+  "keywords": [
+    "redux",
+    "saga",
+    "async",
+    "await",
+    "promise",
+    "generators",
+    "react"
+  ],
+  "author": "Tiberiu Popescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tibbus/redux-sagas-async/issues"
+  },
+  "homepage": "https://github.com/tibbus/redux-sagas-async#readme",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "2.0.0",
+    "eslint": "7.14.0",
+    "eslint-plugin-import": "2.22.1"
+  }
+}
