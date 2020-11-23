@@ -55,7 +55,7 @@ const fetchUser = async (action) {
   Starts fetchUser on each dispatched `USER_FETCH_REQUESTED` action.
   Allows concurrent fetches of user.
 */
-export const mySaga = () => {
+export default mySaga = () => {
   takeEvery("USER_FETCH_REQUESTED", fetchUser);
 }
 ```
@@ -73,7 +73,7 @@ import mySaga from './sagas';
 
 // create the saga middleware
 const sagaMiddleware = createSagaMiddleware(() => {
-  countSagas();
+  mySaga();
   // error function is optional
 }, (error) => console.log('global Saga error', error));
 
