@@ -1,6 +1,6 @@
 {
   "name": "redux-sagas-async",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An alternative and simplified version of redux-saga using await/async instead of generators.",
   "main": "index.js",
   "scripts": {
